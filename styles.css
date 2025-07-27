@@ -231,12 +231,12 @@ legend{
 }
 
 fieldset label{
-	display: flex;
+	display: inline;
 	width: 60%;
 }
 
 fieldset input{
-	display: flex;
+	display: inline;
 	width: 20px;
 }
 
