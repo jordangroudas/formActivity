@@ -236,7 +236,7 @@ fieldset label{
 }
 
 fieldset input{
-	display: inline;
+	display: flex;
 	width: 20px;
 }
 
