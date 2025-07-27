@@ -224,8 +224,6 @@ fieldset{
 	border-radius: 0.2em;
 	display: grid;
 	grid-template-columns: 30px 1fr; 
-    grid-auto-flow: row; 
-    gap: 0.5em;
 }
 
 legend{
@@ -233,8 +231,8 @@ legend{
 }
 
 fieldset label{
-	display: block;
-	width: 100%;
+	display: inline;
+	width: 60%;
 }
 
 fieldset input{
