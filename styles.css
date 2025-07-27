@@ -231,7 +231,7 @@ legend{
 }
 
 fieldset label{
-	display: flex;
+	display: inline;
 	width: 60%;
 }
 
