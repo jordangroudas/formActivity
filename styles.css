@@ -223,7 +223,9 @@ fieldset{
 	border: 1px solid #222;
 	border-radius: 0.2em;
 	display: grid;
-	grid-template-columns: 30px 1fr 30px 1fr;
+	grid-template-columns: 30px 1fr; 
+    grid-auto-flow: row; 
+    gap: 0.5em;
 }
 
 legend{
@@ -231,13 +233,13 @@ legend{
 }
 
 fieldset label{
-	display: flex;
+	display: block;
 	width: 100%;
 }
 
 fieldset input{
 	display: inline;
-	width: auto;
+	width: 20px;
 }
 
 select{
