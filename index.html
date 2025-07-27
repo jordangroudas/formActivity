@@ -43,12 +43,18 @@
   <!-- Preferred Contact Method -->
  <fieldset>
     <legend>Preferred Contact Method: <span class="required">*</span></legend>
-    <br> 
-    <label for="contact-email">Email</label>
-    <input type="radio" id="contact-email" name="contactMethod" value="email" required checked>
-    <br> 
-    <label for="contact-phone">Phone</label>
-    <input type="radio" id="contact-phone" name="contactMethod" value="phone">
+    <div>
+        <div></div> <!-- Fills first 30px column (spacer) -->
+        <label for="contact-email">Email</label> <!-- First 1fr column -->
+        <div></div> <!-- Fills second 30px column (spacer) -->
+        <input type="radio" id="contact-email" name="contactMethod" value="email" required checked> <!-- Second 1fr column -->
+    </div>
+    <div>
+        <div></div> <!-- Fills first 30px column (spacer) -->
+        <label for="contact-phone">Phone</label> <!-- First 1fr column -->
+        <div></div> <!-- Fills second 30px column (spacer) -->
+        <input type="radio" id="contact-phone" name="contactMethod" value="phone"> <!-- Second 1fr column -->
+    </div>
 </fieldset>
 
   <!-- State of Residence -->
