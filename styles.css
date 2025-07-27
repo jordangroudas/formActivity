@@ -231,13 +231,13 @@ legend{
 }
 
 fieldset label{
-	display: inline;
-	width: 60%;
+	display: flex;
+	width: 100%;
 }
 
 fieldset input{
 	display: inline;
-	width: 20px;
+	width: auto;
 }
 
 select{
